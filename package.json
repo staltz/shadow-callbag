@@ -1,0 +1,29 @@
+{
+  "name": "shadow-callbag",
+  "version": "1.0.0",
+  "description": "A factory of Shadow Callbags useful for implementing Tallbags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/shadow-callbag.git"
+  },
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "npm run compile && tape test.js",
+    "publish": "npm run test"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "tallbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "callbag": "~1.2.0"
+  }
+}
